@@ -79,7 +79,7 @@ def counting_sort_array_count(array)
 end
 ```
 
-### counting_sort_array_count
+### counting_sort_array_no_count
 
 ```
 def counting_sort_array_no_count(array)
