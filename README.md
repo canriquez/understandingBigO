@@ -20,7 +20,7 @@ Output:
 
 Output the number of times every number from 0 to 99 (inclusive) appears in the list.
 
-## For this case we evaluate 3 different solutions
+## For this case we evaluate 4 different solutions
 
 ### counting_sort_select
 
