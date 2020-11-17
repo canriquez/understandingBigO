@@ -37,8 +37,6 @@ def counting_sort_select(array)
 end
 ```
 
-![](./counting_sort_1/counting_sort_1.png)
-
 ### counting_sort_hash
 
 ```
@@ -95,3 +93,7 @@ def counting_sort_array_no_count(array)
 
 end
 ```
+
+### Final Benchmark - To go fast, avoid nested O(n) loops
+
+![](./counting_sort_1/counting_sort_1.png)
