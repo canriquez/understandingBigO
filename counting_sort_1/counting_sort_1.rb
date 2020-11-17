@@ -63,8 +63,8 @@ def benchmark(array)
   Benchmark.bmbm do |x|
     x.report("counting_sort_select") {counting_sort_select(array)}
     x.report("counting_sort_hash") {counting_sort_hash(array)}
-    x.report("counting_sort_array_sort") {counting_sort_array_sort(array)}
-    x.report("counting_sort_array_no_sort") {counting_sort_array_no_sort(array)}
+    x.report("counting_sort_array_count") {counting_sort_array_count(array)}
+    x.report("counting_sort_array_no_count") {counting_sort_array_no_count(array)}
   end
 
   Benchmark.memory do |x|
